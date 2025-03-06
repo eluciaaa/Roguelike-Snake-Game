@@ -6475,7 +6475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3389693172845407,
+        "zoomFactor": 0.4950840073748905,
         "windowMask": false
       },
       "objectsGroups": [
@@ -7442,9 +7442,25 @@
           "name": "SlowMoAnimForward",
           "persistentUuid": "2586db98-cdf2-4817-8652-41697d78a75e",
           "width": 0,
-          "x": -49,
-          "y": -847,
+          "x": -52,
+          "y": -876,
           "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HardModeWall",
+          "persistentUuid": "1d030538-fed4-416a-9fa9-e2700eec63f8",
+          "width": 0,
+          "x": 770,
+          "y": 220,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7572,7 +7588,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "HardModeWall",
-          "texture": "assets/wall block.PNG3",
+          "texture": "assets/assets_wall_block.PNG17.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -12008,7 +12024,7 @@
                       },
                       "parameters": [
                         "GoldenAppleCount",
-                        "=",
+                        ">",
                         "1"
                       ]
                     },
@@ -18321,7 +18337,7 @@
                       },
                       "parameters": [
                         "GoldenAppleCount",
-                        "=",
+                        ">",
                         "1"
                       ]
                     },
