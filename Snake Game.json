@@ -11989,7 +11989,7 @@
                       },
                       "parameters": [
                         "GoldenAppleCount",
-                        "+",
+                        "=",
                         "1"
                       ]
                     }
@@ -12024,7 +12024,7 @@
                       },
                       "parameters": [
                         "GoldenAppleCount",
-                        ">",
+                        ">=",
                         "1"
                       ]
                     },
@@ -12066,6 +12066,16 @@
                         "",
                         "",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "GoldenAppleCount",
+                        "=",
+                        "0"
                       ]
                     },
                     {
@@ -18302,7 +18312,7 @@
                       },
                       "parameters": [
                         "GoldenAppleCount",
-                        "+",
+                        "=",
                         "1"
                       ]
                     }
@@ -18337,7 +18347,7 @@
                       },
                       "parameters": [
                         "GoldenAppleCount",
-                        ">",
+                        ">=",
                         "1"
                       ]
                     },
